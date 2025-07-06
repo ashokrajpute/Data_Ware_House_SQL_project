@@ -54,7 +54,7 @@ bdate DATE,
 gen NVARCHAR(50)
 );
 
-IF OBJECT_ID('bronze.crm_cust_info','U') IS NOT NULL --U ->user defined table
+IF OBJECT_ID('bronze.erp_px_cat_g1v2','U') IS NOT NULL --U ->user defined table
   DROP TABLE bronze.erp_px_cat_g1v2;
 CREATE TABLE bronze.erp_px_cat_g1v2(
 id NVARCHAR(50),
@@ -62,3 +62,4 @@ cat NVARCHAR(50),
 subcat NVARCHAR(50),
 maintenance NVARCHAR(50)
 );
+
