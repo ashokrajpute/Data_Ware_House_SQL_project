@@ -1,3 +1,5 @@
+--creating table if not exist
+
 IF OBJECT_ID('silver.crm_cust_info','U') IS NOT NULL --U ->user defined table
   DROP TABLE silver.crm_cust_info;
 CREATE TABLE silver.crm_cust_info(
