@@ -1,3 +1,5 @@
+--Loading data from bronze layer to silver
+
 CREATE OR ALTER PROCEDURE silver.load_silver_layer
 As
 BEGIN
